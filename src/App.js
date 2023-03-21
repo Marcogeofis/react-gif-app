@@ -11,15 +11,15 @@ function App() {
     <main className="App">
         <Route 
           component={Home}
-          path="/" 
+          path="https://marcogeofis.github.io/react-gif-app/" 
         />
         <Route 
           component={Gif}
-          path="/gif/:keyword"    // Lo hacemos dinámico -> genera una props { params }
+          path="https://marcogeofis.github.io/react-gif-app/gif/:keyword"    // Lo hacemos dinámico -> genera una props { params }
         />
         <Route 
           component={PopularGif}
-          path="/popular-gif/:keyword"    // Lo hacemos dinámico -> genera una props { params }
+          path="https://marcogeofis.github.io/react-gif-app/popular-gif/:keyword"    // Lo hacemos dinámico -> genera una props { params }
         />
     </main>
   );

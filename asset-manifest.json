@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gif-app/static/css/main.073c9b0a.css",
-    "main.js": "/react-gif-app/static/js/main.dfb90da8.js",
-    "static/js/787.0fb3da5a.chunk.js": "/react-gif-app/static/js/787.0fb3da5a.chunk.js",
-    "static/media/logo.svg": "/react-gif-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react-gif-app/static/css/main.f93936d5.css",
+    "main.js": "/react-gif-app/static/js/main.dbad6edf.js",
+    "static/media/lupa.png": "/react-gif-app/static/media/lupa.81e5c0b5b53c49b55b3d.png",
+    "static/media/engrane.png": "/react-gif-app/static/media/engrane.66cab41092b8005e04dd.png",
     "index.html": "/react-gif-app/index.html",
-    "main.073c9b0a.css.map": "/react-gif-app/static/css/main.073c9b0a.css.map",
-    "main.dfb90da8.js.map": "/react-gif-app/static/js/main.dfb90da8.js.map",
-    "787.0fb3da5a.chunk.js.map": "/react-gif-app/static/js/787.0fb3da5a.chunk.js.map"
+    "main.f93936d5.css.map": "/react-gif-app/static/css/main.f93936d5.css.map",
+    "main.dbad6edf.js.map": "/react-gif-app/static/js/main.dbad6edf.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.dfb90da8.js"
+    "static/css/main.f93936d5.css",
+    "static/js/main.dbad6edf.js"
   ]
 }

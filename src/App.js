@@ -1,21 +1,26 @@
 import React from 'react';
-import { Link, Route } from 'wouter';
+import { Route } from 'wouter';
 import { Gif } from './components/Gifs';
+import { Home } from './page/Home';
+import { PopularGif } from './components/PopularGif'
 import './App.css';
 
 function App() {
 
   return (
     <main className="App">
-      <section>
-        <h2>APP</h2>
-        <Link to="/gif/goku">goku</Link>
-        <Link to="/gif/mexico">mexico</Link>
+        <Route 
+          component={Home}
+          path="/" 
+        />
         <Route 
           component={Gif}
           path="/gif/:keyword"    // Lo hacemos dinámico -> genera una props { params }
         />
-      </section>
+        <Route 
+          component={PopularGif}
+          path="/popular-gif/:keyword"    // Lo hacemos dinámico -> genera una props { params }
+        />
     </main>
   );
 }

@@ -1,0 +1,25 @@
+.container--listOfGif{
+    width: 350px;
+    height: auto;
+}
+.box--listOfGif__data{
+    width: 100%;
+    height: auto;
+}
+.listOfGif--text{
+    width: 100%;
+    height: auto;
+    background: rgb(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:200px;
+}
+.gif--text{
+    font-size: .8rem;
+    margin: 0;
+}
+.imgGif{
+    width: 350px;
+    height: 200px;
+}

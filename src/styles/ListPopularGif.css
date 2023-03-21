@@ -1,0 +1,21 @@
+.container--links__popularGif{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Box--links__populargifs{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links--populargifs{
+    text-decoration: none;
+    color: white;
+}

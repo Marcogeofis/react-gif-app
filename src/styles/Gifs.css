@@ -1,0 +1,15 @@
+.container-allGifs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px
+}
+h2{
+    font-size: 2.3rem;
+}
+.Link--Home { 
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+}

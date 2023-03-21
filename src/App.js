@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Link, Route } from 'wouter';
+import { Gif } from './components/Gifs';
 import './App.css';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      <section>
+        <h2>APP</h2>
+        <Link to="/gif/goku">goku</Link>
+        <Link to="/gif/mexico">mexico</Link>
+        <Route 
+          component={Gif}
+          path="/gif/:keyword"    // Lo hacemos dinámico -> genera una props { params }
+        />
+      </section>
+    </main>
   );
 }
 
